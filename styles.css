@@ -1,0 +1,154 @@
+/* IDs */
+
+#title-section 
+{
+    background-color: #fc8c03;
+    overflow: hidden;
+} 
+
+#features 
+{
+    margin: 10rem auto;
+    text-align: center;
+    width: 60%;
+    position: relative;
+}
+
+#testimonials 
+{ 
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color:#f8a847;
+}
+
+#pricing 
+{
+    margin: 10rem auto;
+    width: 60%;
+}
+
+#cta 
+{
+    margin: 10rem auto;
+}
+
+/* Components */
+
+body 
+{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Custom classes */
+
+.pricing-card-title 
+{
+    color:black;
+    font-size: 1.8rem;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.carousel-item 
+{
+    padding: 7% 15%;
+}
+
+.testimonial-img 
+{
+    border-radius: 50%;
+    margin: 1.6rem;
+    width: 13rem;
+    height: 13rem;
+}
+
+.features-title 
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+.features-img 
+{
+    margin-bottom: 1rem;
+    color: #f8a847;
+}
+
+.features-img:hover 
+{
+    color: #fc8c03;
+}
+
+.container-fluid 
+{
+    padding: 3% 15%;
+}
+
+.top-img 
+{
+    width: 60%;
+    margin-left: 5rem;
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px) 
+{
+    #title-section 
+    {
+        text-align: center;
+    }
+
+    .top-img 
+    {
+        margin-left: 0;
+        transform: rotate(0);
+        position: static;
+    }
+
+}
+
+.download-button 
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Navbar */
+
+.navbar 
+{
+    margin-bottom: 2.5rem;
+    padding: 0 0 3rem;
+}
+
+.navbar-brand 
+{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item 
+{
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
