@@ -30,7 +30,17 @@
 
 #cta 
 {
+    padding: 10% 3% 3% 3%;
+    text-align: center;
     margin: 10rem auto;
+    background-color:#f8a847;
+    width: 100%;
+}
+
+#footer 
+{
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 /* Components */
@@ -58,6 +68,14 @@ h2
 }
 
 /* Custom classes */
+
+.download-title
+{
+    font-size: 4rem;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
 
 .pricing-card-title 
 {
@@ -110,22 +128,6 @@ h2
     position: absolute;
 }
 
-@media (max-width: 1028px) 
-{
-    #title-section 
-    {
-        text-align: center;
-    }
-
-    .top-img 
-    {
-        margin-left: 0;
-        transform: rotate(0);
-        position: static;
-    }
-
-}
-
 .download-button 
 {
     margin: 5% 3% 5% 0;
@@ -152,3 +154,63 @@ h2
     font-size: 1.1rem;
 }
 
+.card
+{
+    margin: 1.5rem;
+}
+
+/* Conditions */
+
+@media (max-width: 1028px) 
+{
+    #title-section 
+    {
+        text-align: center;
+    }
+    h4 
+    {
+        font-size: 3.5rem;
+    }
+    p 
+    {
+        font-size: 2rem;
+    }
+    .top-img 
+    {
+        margin-left: 0;
+        transform: rotate(0);
+        position: static;
+    }
+    .features-title 
+    {
+        font-size: 3.5rem;
+    }   
+    .responsive-em 
+    {
+        font-size: 1.8rem
+    }
+    .card 
+    {
+        border: 0.2rem solid #fc8c03;
+    }
+    .card-header 
+    {
+        background-color: rgb(224, 215, 215);
+    }
+    .btn 
+    {
+        font-size: 1.5rem;
+    }
+    .download-button 
+    {
+        font-size: 2.2rem;
+    }
+    .download-title 
+    {
+        font-size: 4rem
+    }
+    .responsive-icon 
+    {
+        font-size: 2rem;
+    }
+}

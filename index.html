@@ -24,6 +24,9 @@
 </head>
 
 <body>
+
+  <!-- Tiitle -->
+
   <section id="title-section">
     <div class="container-fluid">
 
@@ -97,12 +100,12 @@
         <div class="carousel-item active">
           <h2 class="testimonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum impedit eveniet velit maiores nihil!</h2>
           <img class="testimonial-img" src="images/katze1.png" alt="cat-profile">
-          <em>Cat, Germany</em>
+          <em class="responsive-em">Cat, Germany</em>
         </div>
         <div class="carousel-item">    
           <h2 class="testimonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum impedit eveniet velit maiores nihil!</h2>
           <img class="testimonial-img" src="images/katze2.png" alt="lady-profile">
-          <em>Katze, Deutschland</em>
+          <em class="responsive-em">Katze, Deutschland</em>
       </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -121,55 +124,82 @@
 
   <section id="pricing">
 
-    <div class="card-deck mb-3 text-center">
-      <div class="card mb-4 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Free</h4>
-        </div>
-        <div class="card-body">
-          <h1 class="card-title pricing-card-title">0€<small class="text-muted">/ mo</small></h1>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>20 Lorem, ipsum.</li>
-            <li>10 GB Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-          </ul>
-          <button type="button" class="btn btn-lg btn-block btn-dark">Sign up for free</button>
-        </div>
-      </div>
-      <div class="card mb-4 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Pro</h4>
-        </div>
-        <div class="card-body">
-          <h1 class="card-title pricing-card-title">15€<small class="text-muted">/ mo</small></h1>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>200 Lorem, ipsum.</li>
-            <li>100 GB Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-          </ul>
-          <button type="button" class="btn btn-lg btn-block btn-dark">Get started</button>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-12">
+        <div class="card text-center">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0€<small class="text-muted">/ mo</small></h1>
+            <p>20 Lorem, ipsum.</p>
+              <p>10 GB Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign up for free</button>
+          </div>
         </div>
       </div>
-      <div class="card mb-4 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Enterprise</h4>
+      
+      <div class="col-lg-4 col-md-12">
+        <div class="card text-center">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">15€<small class="text-muted">/ mo</small></h1>
+              <p>200 Lorem, ipsum.</p>
+              <p>100 GB Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Get started</button>
+          </div>
         </div>
-        <div class="card-body">
-          <h1 class="card-title pricing-card-title">29€<small class="text-muted">/ mo</small></h1>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>2000 Lorem, ipsum.</li>
-            <li>1000 GB Lorem, ipsum dolor.</li>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-          </ul>
-          <button type="button" class="btn btn-lg btn-block btn-dark">Contact us</button>
-        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <div class="card text-center">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">29€<small class="text-muted">/ mo</small></h1>
+            <p>2000 Lorem, ipsum.</p>
+              <p>1000 GB Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Contact us</button>
+          </div>
       </div>
     </div>
 
   </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="download-title">Download now for free! Your life will change.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><span class="fa-brands fa-apple"></span> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><span class="fa-brands fa-google-play"></span> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fa-brands fa-1x fa-twitter responsive-icon"></i>
+    <i class="fa-brands fa-1x fa-instagram responsive-icon"></i>
+    <i class="fa-brands fa-1x fa-facebook-f responsive-icon"></i>
+    <i class="fa-solid fa-1x fa-envelope responsive-icon"></i>
+    <p>© Copyright</p>
+
+  </footer>
+
 
 </body>
 
